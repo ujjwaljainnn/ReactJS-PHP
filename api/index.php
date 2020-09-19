@@ -61,7 +61,6 @@ function signup() {
         $email = $json['email'];
         $name = $json['name'];
         
-
         $username_check = preg_match("/^[A-Za-z0-9_]{4,10}$/i", $username);
         $email_check = preg_match('/^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.([a-zA-Z]{2,4})$/i', $email);
         $password_check = preg_match('/^[A-Za-z0-9!@#$%^&*()_]{4,20}$/i', $password);
