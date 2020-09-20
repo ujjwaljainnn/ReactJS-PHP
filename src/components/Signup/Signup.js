@@ -46,7 +46,7 @@ return (
 <input type="password" name="password" placeholder="Password" onChange={this.onChange}/>
 <input type="submit" className="button" value="Sign Up" onClick={this.signup}/>
 <input type="text" name="add_email" placeholder="Additional Email" onChange={this.onChange}/>
-<a href="/login">Login</a>
+<p>Already a user?</p><a href="/login">Login</a>
 </div>
 </div>
 );
